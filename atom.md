@@ -1,4 +1,4 @@
-##link
+## link
 
 节点地址 ：[https://github.com/cosmos/gaia](https://github.com/cosmos/gaia)
 
@@ -8,7 +8,7 @@ restfulApi文档 : [https://cosmos.network/rpc/v0.37.9](https://cosmos.network/r
 
 测试网浏览器 : [https://cosmos.bigdipper.live/](https://cosmos.bigdipper.live/)
 
-##节点搭建
+## 节点搭建
 ```
 git clone -b v2.0.11 https://github.com/cosmos/gaia.git
 
@@ -17,9 +17,9 @@ cd gaia
 make install
 ```
 
-##启动节点
+## 启动节点
 
-###重置数据
+### 重置数据
 ```
 rm $HOME/.gaiad/config/addrbook.json $HOME/.gaiad/config/genesis.json 
 gaiad init David --chain-id=gaia-13007
@@ -60,22 +60,22 @@ vim conf.toml
 ```
 
 
-##rpc
+## rpc
 查询链信息
 ```
 curl -X GET "127.0.0.1:1317/node_info" -H "accept: application/json"
 ```
 
-##restfulApi
+## restfulApi
 
 启动:
 
 `gaiacli rest-server --chain-id gaia-13007 --trust-node  --laddr tcp://0.0.0.0:1317`
 
 
-##cli操作
+## cli操作
 
-###创建账户
+### 创建账户
 >password must be at least 8 characters
 
 ```
@@ -99,7 +99,7 @@ It is the only way to recover your account if you ever forget your password.
 shadow learn print program hobby vehicle park identify kid slice oxygen cigar cliff screen device leg rabbit echo will initial glory smoke modify model
 ```
 
-###获取测试币
+### 获取测试币
 [faucet](https://riot.im/app/#/room/#cosmos-faucet:matrix.org)
 
 > YOURADDRESS 你的钱包地址
@@ -107,10 +107,10 @@ shadow learn print program hobby vehicle park identify kid slice oxygen cigar cl
 发送 "show me the money! YOURADDRESS" 获取测试币
 
 
-###质押
+### 质押
 >节点需同步完成
 
-####cli操作 
+#### cli操作 
 
 委托
 ```
@@ -157,7 +157,7 @@ gaiacli tx distribution withdraw-all-rewards --from <delegatorKeyName> --gas aut
 gaiacli tx staking unbond <validatorAddress> <amountToUnbond> --from <delegatorKeyName> --gas auto --gas-adjustment 1.5 --gas-prices <gasPrice>
 ```
 
-####api查询
+#### api查询
 
 查询该用户所有委托
 
@@ -209,7 +209,7 @@ response :
 {"height":"3063624","result":{"rewards":[{"validator_address":"cosmosvaloper1ck3kl0xe48zynr0nuf4tvvx8s7nhkehzpmyg8h","reward":null}],"total":null}}
 ```
 
-####实现
+#### 实现
 
 前端 ：
 
@@ -231,7 +231,7 @@ response :
 
 
 
-##参考
+## 参考
 
 [https://github.com/cosmos/gaia/tree/main/docs](https://github.com/cosmos/gaia/tree/main/docs)
 
