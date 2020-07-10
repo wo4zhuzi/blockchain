@@ -6,7 +6,7 @@ restfulApi文档 : [https://cosmos.network/rpc/v0.37.9](https://cosmos.network/r
 
 主网浏览器 : [https://www.mintscan.io/](https://www.mintscan.io/)
 
-测试网浏览器 : [https://cosmos.bigdipper.live/](https://cosmos.bigdipper.live/)
+测试网浏览器 : [https://gaia.bigdipper.live](https://gaia.bigdipper.live)
 
 ## 节点搭建
 ```
