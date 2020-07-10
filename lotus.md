@@ -1,11 +1,11 @@
-##Link
+## Link
 浏览器 [https://filscan.io/#/](https://filscan.io/#/)
 
 rpc [https://docs.lotu.sh/en+api](https://docs.lotu.sh/en+api)
 
 文档  [https://docs.lotu.sh/](https://docs.lotu.sh/)
 
-##cli 操作
+## cli 操作
 运行守护进程 `lotus daemon`
 
 指定目录运行 `lotus --repo="/root/blockchain/lotus_path"  daemon`
@@ -40,7 +40,7 @@ response : `bafy2bzacecickwwe4kzmv36scszc2gaqqzqjjc5wnrtiwk52bwqsesehb7hy6`
 
 view in explorer : [https://filscan.io/#/message/detail?cid=bafy2bzacecickwwe4kzmv36scszc2gaqqzqjjc5wnrtiwk52bwqsesehb7hy6](https://filscan.io/#/message/detail?cid=bafy2bzacecickwwe4kzmv36scszc2gaqqzqjjc5wnrtiwk52bwqsesehb7hy6)
 
-##rpc 操作
+## rpc 操作
 
 查看头信息 ：
 
@@ -81,7 +81,7 @@ curl -X POST \
   ListenAddress = "/ip4/0.0.0.0/tcp/1234/http"`
   
 
-##扫链程序
+## 扫链程序
 
 安装 ： 
 `git clone https://github.com/ipfs-force-community/filscan-backend.git`
