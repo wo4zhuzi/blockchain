@@ -53,7 +53,7 @@ chomd +x polkadot
 运行测试节点
 
 ```
-./polkadot --chain=westend --pruning=archive --ws-port=9955 --unsafe-ws-external --rpc-cors=all --rpc-port=9998 --rpc-external 
+./polkadot --chain=westend --pruning=archive --ws-port=9955 --unsafe-ws-external --rpc-cors=all --rpc-port=9998 --rpc-external --base-path = /root/blockchain/dot_path
 ```
 
 默认文件存储路径
